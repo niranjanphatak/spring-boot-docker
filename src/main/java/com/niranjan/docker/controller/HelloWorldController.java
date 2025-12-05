@@ -19,5 +19,11 @@ public class HelloWorldController {
 		return "test";
 	}
 
+	@GetMapping("/test111")
+	public String test111() {
+
+		return "test111";
+	}
+
 }
 
