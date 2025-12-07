@@ -8,22 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("dockerapp")
 public class HelloWorldController {
 
-	@GetMapping("/hello")
-	public String helloWorld() {
+	@GetMapping("/pr_test")
+	public String pr_test() {
 	
-		return "Hello World";
+		return "pr_test";
 	}
-	@GetMapping("/test")
-	public String test() {
-
-		return "test";
-	}
-
-	@GetMapping("/test111")
-	public String test111() {
-
-		return "test111";
-	}
-
 }
 
